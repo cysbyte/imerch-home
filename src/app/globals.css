@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.input-placeholder {
+  @apply text-gray-300 text-sm; 
+}
+
+.input-placeholder::placeholder {
+  font-size: 0.875rem; 
+}
