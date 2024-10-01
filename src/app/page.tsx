@@ -6,7 +6,7 @@ import UpperPart from "@/components/ring/upper-part";
 
 export default function Home() {
   return (
-    <div className=" max-w-screen-xl">
+    <div className=" max-w-screen-2xl mx-auto">
       <Header/>
       <Deco/>
       <UpperPart/>
