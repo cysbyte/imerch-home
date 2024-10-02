@@ -9,12 +9,12 @@ const Roadmap1 = () => {
     return (
         <article className='w-full flex items-start gap-20 relative py-20 pl-20 mt-14'>
             <Image className='-z-10 absolute w-[700px] h-[700px] left-[30%] top-[10%]' src={bgAction} alt='' />
-            <div className='flex flex-col gap-6'>
+            <div data-aos='fade-right' className='flex flex-col gap-6'>
                 <h6 className='text-[#686EFF] text-sm'>Roadmap</h6>
                 <h2 className='text-black text-4xl font-bold'>See how to bring your <br /> brand to life</h2>
                 <Actions selectedIndex={1} />
             </div>
-            <div className='w-full'>
+            <div data-aos='fade-left' className='w-full'>
                 <Image className='w-[700px] h-auto mb-5' src={roadmap1a} alt=''/>
                 <Image className='w-[700px] h-auto' src={roadmap1b} alt=''/>
             </div>

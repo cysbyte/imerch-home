@@ -17,7 +17,7 @@ const Deco = () => {
   const variants: Variants = {
     hidden: {
       opacity: 0,
-      y: 75
+      y: 150
     },
     visible: {
       opacity: 1,
