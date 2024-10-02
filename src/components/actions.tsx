@@ -1,12 +1,10 @@
-import React from 'react'
-import actionIcon1 from '/public/home/action-icon1.svg'
-import actionIcon2 from '/public/home/action-icon2.svg'
-import actionIcon3 from '/public/home/action-icon3.svg'
+import Image from 'next/image'
 import actionIconSelected1 from '/public/home/action-icon-selected1.svg'
 import actionIconSelected2 from '/public/home/action-icon-selected2.svg'
 import actionIconSelected3 from '/public/home/action-icon-selected3.svg'
-import Image from 'next/image'
-import { div } from 'framer-motion/client'
+import actionIcon1 from '/public/home/action-icon1.svg'
+import actionIcon2 from '/public/home/action-icon2.svg'
+import actionIcon3 from '/public/home/action-icon3.svg'
 
 const Actions = ({selectedIndex}:
     {selectedIndex: number}) => {
