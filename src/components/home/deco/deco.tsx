@@ -32,7 +32,7 @@ const Deco = () => {
         animate={animation}
         className='text-5xl font-extrabold mt-32'
       >
-        Turning Your Idea into<br /> customised Merchandise
+        Turning Your Idea Into<br /> Customised Merchandise
       </motion.h1>
       <motion.h3
         variants={variants}
