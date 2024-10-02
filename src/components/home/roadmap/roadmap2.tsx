@@ -1,8 +1,6 @@
-import { article } from 'framer-motion/client'
-import React from 'react'
+import Image from 'next/image'
 import Actions from '../../actions'
 import bgAction from '/public/home/bg-action.svg'
-import Image from 'next/image'
 import roadmap2 from '/public/home/roadmap2.svg'
 
 

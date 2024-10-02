@@ -1,10 +1,8 @@
+import { motion } from 'framer-motion'
 import Image from 'next/image'
-import React from 'react'
 import featureIcon1 from '/public/home/feature-icon1.svg'
 import featureIcon2 from '/public/home/feature-icon2.svg'
 import featureIcon3 from '/public/home/feature-icon3.svg'
-import { div } from 'framer-motion/client'
-import { motion } from 'framer-motion'
 
 const FeatureItem = ({ id, title, desc }: { id: number, title: string, desc: string }) => {
     const getFeatureIcon = (id: number) => {

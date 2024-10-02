@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import EmailInput from './email-input'
 import { motion, useAnimation, useInView, Variants } from 'framer-motion'
 
 const Deco = () => {
