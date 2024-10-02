@@ -6,7 +6,7 @@ import logo from '/public/home/logo.svg'
 const Header = () => {
   return (
     <div className='w-full flex justify-between items-center px-5 py-2'>
-        <Image src={logo} width={150} height={40} alt='iMerch.ai'/>
+        <Image src={logo} className='w-[150px] h-auto' alt='iMerch.ai'/>
         <Menu/>
         <TrialButton/>
     </div>
