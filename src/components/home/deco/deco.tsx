@@ -30,6 +30,7 @@ const Deco = () => {
         variants={variants}
         initial='hidden'
         animate={animation}
+        transition={{duration: 0.3}}
         className='text-5xl font-extrabold mt-32'
       >
         Turning Your Idea Into<br /> Customised Merchandise
@@ -39,7 +40,7 @@ const Deco = () => {
         initial='hidden'
         animate='visible'
         transition={
-          { delay: 0.25 }
+          { delay: 0.25, duration: 0.3 }
         }
         className='text-sm text-[#898CA9] my-7'
       >iMerch.ai is a platform that bridges the gap between supply chains and <br /> innovative companies or individuals.
@@ -50,7 +51,7 @@ const Deco = () => {
         initial='hidden'
         animate='visible'
         transition={
-          { delay: 0.5 }
+          { delay: 0.5, duration: 0.3}
         }
         // whileHover={{
         //   scale: 1.1,
