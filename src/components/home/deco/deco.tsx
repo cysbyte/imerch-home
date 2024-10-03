@@ -60,7 +60,7 @@ const Deco = () => {
         // }}
         className='flex items-center justify-center gap-8 px-2 py-1 border-[1px] border-black rounded-full'>
         <input
-          className='w-full appearance-none focus:outline-none rounded-sm input-placeholder'
+          className='w-full pl-3 appearance-none focus:outline-none rounded-sm input-placeholder'
           type='text'
           id='email'
           placeholder={`Please enter your email`}

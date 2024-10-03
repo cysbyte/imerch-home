@@ -6,7 +6,7 @@ import roadmap2 from '/public/home/roadmap2.svg'
 
 const Roadmap2 = () => {
     return (
-        <article className='w-full flex items-start gap-20 relative py-20 pl-20'>
+        <article className='w-full flex items-start gap-20 relative py-10 pl-20'>
             <Image className='-z-10 absolute w-[700px] h-[700px] left-[30%] top-[10%]' src={bgAction} alt='' />
             <div data-aos='fade-right' className='flex flex-col gap-6'>
                 <h6 className='text-[#686EFF] text-sm'>Roadmap</h6>

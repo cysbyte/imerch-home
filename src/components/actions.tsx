@@ -36,9 +36,9 @@ const Actions = ({selectedIndex}:
         }
     }
     return (
-        <div className='flex flex-col items-start justify-center gap-5'>
+        <div className='flex flex-col items-start justify-center gap-5 mt-4'>
             {data.map((item)=>(
-                <div className='flex items-start gap-3' key={item.id}>
+                <div className='h-[100px] flex items-start gap-3' key={item.id}>
                     <Image className='w-[50px] h-auto' src={getActionIcon(item.id)} alt=''/>
                     <div>
                         <h3 className='font-bold'>{item.title}</h3>

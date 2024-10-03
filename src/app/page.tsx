@@ -6,6 +6,8 @@ import UpperPart from "@/components/ring/upper-part";
 import Roadmap1 from "@/components/home/roadmap/roadmap1";
 import Roadmap2 from "@/components/home/roadmap/roadmap2";
 import Roadmap3 from "@/components/home/roadmap/roadmap3";
+import LaunchOffer from "@/components/home/launch-offer";
+import JoinUs from "@/components/home/join-us";
 
 export default function Home() {
   
@@ -20,6 +22,8 @@ export default function Home() {
       <Roadmap1/>
       <Roadmap2/>
       <Roadmap3/>
+      <LaunchOffer/>
+      <JoinUs/>
     </div>
   );
 }
