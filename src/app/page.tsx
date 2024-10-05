@@ -8,6 +8,7 @@ import Roadmap2 from "@/components/home/roadmap/roadmap2";
 import Roadmap3 from "@/components/home/roadmap/roadmap3";
 import LaunchOffer from "@/components/home/launch-offer";
 import JoinUs from "@/components/home/join-us";
+import Solutions from "@/components/home/solutions";
 
 export default function Home() {
   
@@ -24,6 +25,7 @@ export default function Home() {
       <Roadmap3/>
       <LaunchOffer/>
       <JoinUs/>
+      <Solutions/>
     </div>
   );
 }

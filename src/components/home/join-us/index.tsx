@@ -1,9 +1,8 @@
-import Image from 'next/image'
-import arrowIcon from '/public/home/arrow-icon.svg'
+import JoinUsButton from "./join-us-button"
 
 const JoinUs = () => {
   return (
-    <div className="relative w-auto mt-14 pt-12 px-32 h-[630px] bg-[url('/home/bg-join-us.svg')] bg-center bg-no-repeat bg-contain flex flex-col items-center text-center">
+    <div data-aos='fade-in' className="relative w-auto mt-14 pt-12 px-32 h-[630px] bg-[url('/home/bg-join-us.svg')] bg-center bg-no-repeat bg-contain flex flex-col items-center text-center">
       <div className='absolute w-full h-[60%] bottom-0 bg-gradient-to-b from-[#FFFFFF00] to-white'></div>
       {/* <Image className='absolute bottom-0' src={joinUsCover} alt=''/> */}
       <div className='bg-white bg-opacity-70 w-full h-full flex justify-center items-center'>
@@ -21,11 +20,8 @@ const JoinUs = () => {
               <p className='text-sm text-[#898CA9] mt-3'>Easily launch your SWAG store. Set up merchandise based on profiles. Create SWAG for staff or customers. Get everything you need effortlessly.</p>
             </div>
           </div>
+          <JoinUsButton/>
 
-          <div className='z-10 flex items-center justify-center gap-2 bg-[#686EFF] w-full py-3 rounded-full mt-4'>
-            <p className='text-white font-bold text-2xl'>Join Us</p>
-            <Image className="w-[25px] h-auto" src={arrowIcon} alt="" />
-          </div>
         </div>
       </div>
     </div>

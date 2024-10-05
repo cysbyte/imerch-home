@@ -12,7 +12,7 @@ export const TrialButton = () => {
                 textShadow: '0px 0px 0px rgb(255,255,255)',
                 boxShadow: '0px 0px 3px rgb(0,0,255)'
             }}
-            className='cursor-pointer h-auto bg-[#686EFF] text-white rounded-full flex justify-center items-center text-base gap-1 px-3 py-1.5'>
+            className='cursor-pointer h-auto bg-[#686EFF] text-white rounded-full flex justify-center items-center text-base gap-1 px-3 py-1.5 drop-shadow-md'>
             <p className='text-nowrap'>Start Trial</p>
             <Image className="w-[20px] h-auto" src={arrowIcon} alt=""/>
 
