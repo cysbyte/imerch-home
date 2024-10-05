@@ -6,7 +6,7 @@ import whiteArrow from '/public/home/white-arrow.svg'
 
 const Premium = () => {
   return (
-    <div data-aos="zoom-in" className=' max-h-[25rem] flex-1 bg-gradient-to-r from-[#FFAC9B] to-[#686EFF] flex flex-col items-center justify-center text-center gap-5 rounded-3xl px-4 py-5 backdrop-blur-md drop-shadow-lg'>
+    <div data-aos="fade-in" className=' max-h-[25rem] flex-1 bg-gradient-to-r from-[#FFAC9B] to-[#686EFF] flex flex-col items-center justify-center text-center gap-5 rounded-3xl px-4 py-5 backdrop-blur-md drop-shadow-lg'>
       <h1 className='px-2 text-white text-left w-full text-sm'>RECOMMENDED</h1>
       <Image className='w-[66px] h-auto backdrop-blur-md drop-shadow-sm' src={icon} alt='' />
       <div className='flex flex-col gap-3'>
