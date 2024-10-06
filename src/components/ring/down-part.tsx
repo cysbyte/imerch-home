@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import upperPart from '/public/home/down-part.svg'
-import downTexture from '/public/home/down-texture.png'
 import downCircle from '/public/home/down-circle.png'
+import downTexture from '/public/home/down-texture.png'
 
 const DownPart = () => {
   return (
