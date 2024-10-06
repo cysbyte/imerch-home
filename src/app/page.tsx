@@ -9,23 +9,26 @@ import Roadmap3 from "@/components/home/roadmap/roadmap3";
 import LaunchOffer from "@/components/home/launch-offer";
 import JoinUs from "@/components/home/join-us";
 import Solutions from "@/components/home/solutions";
+import DownPart from "@/components/ring/down-part";
 
 export default function Home() {
-  
+
   return (
     <div className="max-w-7xl mx-auto">
-      <Header/>
-      <Deco/>
-      <UpperPart/>
-      {/* <DownPart/> */}
-      <Slider/>
-      <Features/>
-      <Roadmap1/>
-      <Roadmap2/>
-      <Roadmap3/>
-      <LaunchOffer/>
-      <JoinUs/>
-      <Solutions/>
+      <div className="w-full h-[1250px] bg-[url('/home/bg-intro.svg')] bg-center bg-no-repeat bg-cover">
+        <Header />
+        <Deco />
+        <UpperPart />
+        <DownPart />
+      </div>
+      <Slider />
+      <Features />
+      <Roadmap1 />
+      <Roadmap2 />
+      <Roadmap3 />
+      <LaunchOffer />
+      <JoinUs />
+      <Solutions />
     </div>
   );
 }
