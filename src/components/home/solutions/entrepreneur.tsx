@@ -5,7 +5,7 @@ import whiteArrow from '/public/home/white-arrow.svg'
 
 const Entrepreneur = () => {
   return (
-    <div data-aos="fade-in" className='max-h-80 flex-1 bg-gradient-to-r from-[#CD97BC] to-[#9D84DC] flex flex-col items-center justify-center text-center gap-5 rounded-3xl p-4 backdrop-blur-md drop-shadow-lg shadow-xl'>
+    <div data-aos="fade-in" className='w-full md:w-[80%] max-h-80 flex-1 basis-0 bg-gradient-to-r from-[#CD97BC] to-[#9D84DC] flex flex-col items-center justify-center text-center gap-5 rounded-3xl p-4 backdrop-blur-md drop-shadow-lg shadow-xl'>
       <Image className='w-[66px] h-auto backdrop-blur-xl drop-shadow-sm' src={icon} alt='' />
       <div className='flex flex-col gap-3'>
         <h2 className='text-white font-bold text-2xl'>Entrepreneur</h2>

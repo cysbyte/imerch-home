@@ -5,7 +5,7 @@ import whiteArrow from '/public/home/white-arrow.svg'
 
 const Basic = () => {
   return (
-    <div data-aos="fade-in" className='max-h-80 flex-1 bg-gradient-to-r from-[#FFC8BD] to-[#DFB9D0] flex flex-col items-center justify-center text-center gap-5 rounded-3xl p-4 backdrop-blur-xl drop-shadow-lg'>
+    <div data-aos="fade-in" className='w-full md:w-[80%] max-h-80 flex-1 basis-0 bg-gradient-to-r from-[#FFC8BD] to-[#DFB9D0] flex flex-col items-center justify-center text-center gap-5 rounded-3xl p-4 backdrop-blur-xl drop-shadow-lg'>
       <Image className='w-[66px] h-auto backdrop-blur-md drop-shadow-sm' src={icon} alt='' />
       <div className='flex flex-col gap-3'>
         <h2 className='text-white font-bold text-2xl'>Influencer Basic</h2>

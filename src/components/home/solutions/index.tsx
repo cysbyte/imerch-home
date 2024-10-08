@@ -16,7 +16,7 @@ const Solutions = () => {
       <h6 className='text-[#686EFF] text-base font-semibold mt-32'>Plans</h6>
       <h2 className='text-4xl font-extrabold my-5'>Solutios for You</h2>
       <p className='text-sm'>Check out our packages and choose the one that suits you</p>
-      <div className='flex flex-col lg:flex-row items-center justify-center gap-10 px-5 lg:px-20 mt-20'>
+      <div className='w-full flex flex-col lg:flex-row items-center justify-center gap-10 p lg:px-20 mt-20'>
         <Basic />
         <Premium />
         <Entrepreneur />

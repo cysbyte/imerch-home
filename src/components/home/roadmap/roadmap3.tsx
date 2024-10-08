@@ -8,7 +8,7 @@ import inputIcon from '/public/home/input-icon.svg'
 
 const Roadmap3 = () => {
     return (
-        <article className='w-full flex flex-col lg:flex-row items-start gap-20 relative py-10 lg:py-20 pl-5 lg:pl-20 pr-5 lg:pr-0'>
+<article className='w-full flex flex-col lg:flex-row items-center gap-20 relative py-10 lg:py-20 pl-10 md:pl-20 lg:pl-20 pr-10 md:pr-20 lg:pr-0'>
             <Image className='-z-10 absolute w-[700px] h-[700px] left-0 lg:left-[30%] top-[10%]' src={bgAction} alt='' />
             <div data-aos='fade-right' className='flex flex-col gap-6'>
                 <h6 className='text-[#686EFF] text-sm'>Roadmap</h6>
@@ -16,8 +16,8 @@ const Roadmap3 = () => {
                 <Actions selectedIndex={3} />
                 <div
                     className='w-[90%] flex items-center justify-between gap-8 px-2 py-1 border-[1px] border-black rounded-full'>
-                    <div className='pl-2 flex items-center justify-center gap-1'>
-                        <Image className='w-[20px] h-auto' src={inputIcon} alt='' />
+                    <div className='pl-2 flex items-center justify-center gap-1 w-full'>
+                        <Image className='w-[20px] h-auto mx-auto' src={inputIcon} alt='' />
                         <input
                             className='w-full bg-transparent appearance-none focus:outline-none rounded-sm input-placeholder'
                             type='text'
