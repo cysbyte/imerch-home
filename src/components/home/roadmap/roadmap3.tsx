@@ -15,7 +15,7 @@ const Roadmap3 = () => {
                 <h2 className='text-black text-4xl font-bold'>See how to bring your <br /> brand to life</h2>
                 <Actions selectedIndex={3} />
                 <div
-                    className='w-[90%] flex items-center justify-center gap-8 px-2 py-1 border-[1px] border-black rounded-full'>
+                    className='w-[90%] flex items-center justify-between gap-8 px-2 py-1 border-[1px] border-black rounded-full'>
                     <div className='pl-2 flex items-center justify-center gap-1'>
                         <Image className='w-[20px] h-auto' src={inputIcon} alt='' />
                         <input
