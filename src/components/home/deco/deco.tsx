@@ -31,7 +31,7 @@ const Deco = () => {
         initial='hidden'
         animate={animation}
         transition={{duration: 0.3}}
-        className='text-3xl md:text-4xl lg:text-5xl font-extrabold mt-32'
+        className='text-3xl md:text-4xl lg:text-5xl font-extrabold mt-32 tracking-wide'
       >
         Turning Your Idea Into<br /> Customised Merchandise
       </motion.h1>
