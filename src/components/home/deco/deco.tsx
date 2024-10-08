@@ -25,13 +25,13 @@ const Deco = () => {
     }
   }
   return (
-    <div ref={ref} className="w-full mt-10 h-[400px] bg-[url('/home/deco.svg')] bg-center bg-no-repeat bg-contain flex flex-col items-center text-center">
+    <div ref={ref} className="w-full mt-0 lg:mt-10 h-[400px] bg-[url('/home/deco.svg')] bg-center bg-no-repeat bg-contain flex flex-col items-center text-center">
       <motion.h1
         variants={variants}
         initial='hidden'
         animate={animation}
         transition={{duration: 0.3}}
-        className='text-5xl font-extrabold mt-32'
+        className='text-3xl md:text-4xl lg:text-5xl font-extrabold mt-32'
       >
         Turning Your Idea Into<br /> Customised Merchandise
       </motion.h1>
@@ -42,8 +42,8 @@ const Deco = () => {
         transition={
           { delay: 0.25, duration: 0.3 }
         }
-        className='text-sm text-[#898CA9] my-7'
-      >iMerch.ai is a platform that bridges the gap between supply chains and <br /> innovative companies or individuals.
+        className='text-sm text-[#898CA9] my-7 w-[80%] lg:w-[50%]'
+      >iMerch.ai is a platform that bridges the gap between supply chains and innovative companies or individuals.
       </motion.h3>
 
       <motion.div
@@ -58,12 +58,12 @@ const Deco = () => {
         //   textShadow: '0px 0px 0px rgb(255,255,255)',
         //   boxShadow: '0px 0px 3px rgb(0,0,0)',
         // }}
-        className='flex items-center justify-center gap-8 px-2 py-1 border-[1px] border-black rounded-full'>
+        className='flex items-center justify-center gap-8 mx-10 lg:mx-2 px-2 py-1 border-[1px] border-black rounded-full'>
         <input
           className='bg-transparent w-full pl-3 appearance-none focus:outline-none rounded-sm input-placeholder'
           type='text'
           id='email'
-          placeholder={`Please enter your email`}
+          placeholder={`Enter your email`}
         />
         <div className='cursor-pointer h-auto bg-[#686EFF] text-white rounded-full flex justify-center items-center text-base gap-1 px-3 py-1.5'>
           <p className=' text-nowrap'>Book a demo</p>

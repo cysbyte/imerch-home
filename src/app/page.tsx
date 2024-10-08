@@ -14,8 +14,8 @@ import DownPart from "@/components/ring/down-part";
 export default function Home() {
 
   return (
-    <div className="max-w-7xl mx-auto">
-      <div className="w-full h-[1250px] bg-[url('/home/bg-intro.svg')] bg-center bg-no-repeat bg-cover">
+    <div className="w-full">
+      <div className="w-full h-[900px] lg:h-[1250px] bg-[url('/home/bg-intro.svg')] bg-center bg-no-repeat bg-cover">
         <Header />
         <Deco />
         <UpperPart />

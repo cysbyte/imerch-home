@@ -7,10 +7,10 @@ import slider4 from '/public/home/slider/slider4.png'
 const Slider = () => {
   return (
     <div className='max-w-7xl flex gap-0 overflow-hidden'>
-        <Image className='h-[250px] w-auto' src={slider1} alt=''/>
-        <Image className='h-[250px] w-auto' src={slider2} alt=''/>
-        <Image className='h-[250px] w-auto' src={slider3} alt=''/>
-        <Image className='h-[250px] w-auto' src={slider4} alt=''/>
+        <Image className='h-[100px] lg:h-[250px] w-auto' src={slider1} alt=''/>
+        <Image className='h-[100px] lg:h-[250px] w-auto' src={slider2} alt=''/>
+        <Image className='h-[100px] lg:h-[250px] w-auto' src={slider3} alt=''/>
+        <Image className='h-[100px] lg:h-[250px] w-auto' src={slider4} alt=''/>
     </div>
   )
 }

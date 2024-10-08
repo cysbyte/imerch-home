@@ -3,8 +3,8 @@ import logo from '/public/home/logo.svg'
 
 const Footer = () => {
     return (
-        <article className='my-32 flex pl-12 pr-24 items-center justify-between w-full z-10'>
-            <div className='flex flex-col items-start py-5'>
+        <article className='my-32 flex flex-col lg:flex-row pl-2 lg:pl-12 pr-2 lg:pr-24 items-center justify-between w-full z-10 gap-6'>
+            <div className='flex flex-col items-start py-5 lg:w-[40%]'>
                 <Image className='w-32 h-auto' src={logo} alt='' />
                 <p className='text-sm text-left mt-8'>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out <br />print, graphic or web designs. <br /><br />The passage is attributed to an unknown typesetter.</p>
                 <div
@@ -13,7 +13,7 @@ const Footer = () => {
                         className='w-full pl-3 appearance-none focus:outline-none rounded-sm input-placeholder bg-transparent'
                         type='text'
                         id='email'
-                        placeholder={`Please enter your email`}
+                        placeholder={`Enter your email`}
                     />
                     <div className='cursor-pointer h-auto bg-black text-white rounded-full flex justify-center items-center text-base gap-1 px-3 py-1.5'>
                         <p className=' text-nowrap'>Book a demo</p>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <p className='text-[0.62rem]'>© 2024 imerchai. All rights reserved.</p>
             </div>
 
-            <div className='flex gap-20'>
+            <div className='flex items-center justify-between w-full lg:w-[30%]'>
                 <div>
                     <h4 className='text-lg font-bold mb-5'>Sitemap</h4>
                     <div className='flex flex-col text-sm gap-2 text-left'>
