@@ -8,7 +8,7 @@ const EmailInput = () => {
     const [focused, setFocused] = useState(false)
     return (
         <div
-            className='w-[90%] flex items-center justify-between gap-8 px-2 py-1 border-[1px] border-black rounded-full'>
+            className='w-[90%] flex items-center justify-between gap-8 px-2 py-1 border-[2px] border-black rounded-full'>
             <div className='pl-2 flex items-center justify-center gap-1 w-full'>
                 <Image className='w-[20px] h-auto mx-auto' src={inputIcon} alt='' />
                 <input

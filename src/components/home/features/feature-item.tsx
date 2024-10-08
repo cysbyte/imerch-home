@@ -22,7 +22,7 @@ const FeatureItem = ({ id, title, desc }: { id: number, title: string, desc: str
                 color: '#f8e112'
             }}
             transition={{ type: 'spring', stiffness: 300 }}
-            className='bg-gradient-to-b from-[#FFFFFF4D] to-[#FFFFFF33] border-grad flex flex-col items-center justify-center gap-3 text-center rounded-3xl backdrop-blur-[1px] h-[220px] flex-1 px-2 py-8 lg:py-0 border-[1px] border-gray-200/30'>
+            className='bg-gradient-to-b from-[#FFFFFF4D] to-[#FFFFFF33] border-grad flex flex-col items-center justify-center gap-3 text-center rounded-3xl backdrop-blur-[1px] h-[220px] flex-1 px-2 py-8 lg:py-0 border-[2px] border-gray-200/30'>
             <Image className='w-[66px] h-auto' src={getFeatureIcon(id)} alt='' />
             <h3 className='text-[1.4rem] font-semibold text-white '>{title}</h3>
             <p className='text-[0.7rem] text-white'>{desc}</p>

@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import ins from '/public/home/mockup/ins.svg'
-import linkedin from '/public/home/mockup/linkedin.svg'
-import twitter from '/public/home/mockup/twitter.svg'
-import youtube from '/public/home/mockup/youtube.svg'
+import ins from '/public/home/mockup/ins.png'
+import linkedin from '/public/home/mockup/linkedin.png'
+import twitter from '/public/home/mockup/twitter.png'
+import youtube from '/public/home/mockup/youtube.png'
 import upperCircle from '/public/home/upper-circle.png'
 
 const UpperPart = () => {

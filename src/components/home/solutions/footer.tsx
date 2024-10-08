@@ -8,7 +8,7 @@ const Footer = () => {
                 <Image className='w-32 h-auto' src={logo} alt='' />
                 <p className='text-sm text-left mt-8'>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out <br />print, graphic or web designs. <br /><br />The passage is attributed to an unknown typesetter.</p>
                 <div
-                    className='flex items-center justify-center gap-8 px-2 py-1 border-[1px] border-black rounded-full my-5'>
+                    className='flex items-center justify-center gap-8 px-2 py-1 border-[2px] border-black rounded-full my-5'>
                     <input
                         className='w-full pl-3 appearance-none focus:outline-none rounded-sm input-placeholder bg-transparent'
                         type='text'
