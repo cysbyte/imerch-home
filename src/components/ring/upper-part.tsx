@@ -1,10 +1,9 @@
 import Image from 'next/image'
-import upperTexture from '/public/home/upper-texture.png'
-import upperCircle from '/public/home/upper-circle.png'
 import ins from '/public/home/mockup/ins.svg'
-import youtube from '/public/home/mockup/youtube.svg'
 import linkedin from '/public/home/mockup/linkedin.svg'
 import twitter from '/public/home/mockup/twitter.svg'
+import youtube from '/public/home/mockup/youtube.svg'
+import upperCircle from '/public/home/upper-circle.png'
 
 const UpperPart = () => {
   return (
