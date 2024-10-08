@@ -13,8 +13,8 @@ const Solutions = () => {
       <Image className='absolute left-0 lg:left-[50%] top-[750px] w-[700px] h-auto' src={bgSolutions} alt='' />
       <Image className='absolute left-0 lg:-left-[15%] top-[1250px] w-[700px] h-auto' src={bgSolutions} alt='' />
 
-      <h6 className='text-[#686EFF] text-base font-semibold mt-32'>Plans</h6>
-      <h2 className='text-4xl font-extrabold my-5'>Solutios for You</h2>
+      <h6 className='text-[#686EFF] text-lg font-semibold mt-32'>Plans</h6>
+      <h2 className='text-4xl font-extrabold my-5'>Solutions for You</h2>
       <p className='text-sm'>Check out our packages and choose the one that suits you</p>
       <div className='w-full flex flex-col lg:flex-row items-center justify-center gap-10 p lg:px-20 mt-20'>
         <Basic />

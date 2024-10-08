@@ -22,9 +22,10 @@ const Menu = () => {
         },
     ]
     const [currentItemIndex, setCurrentItemIndex] = useState(1)
+    
     return (
         <div className="w-auto hidden lg:block">
-            <div className='flex gap-5 items-center justify-center border-[1px] border-black rounded-full p-1 text-base'>
+            <div className='flex gap-5 items-center justify-center border-[2px] border-black rounded-full p-1 text-base'>
                 {
                     items.map((item) => (
                         <div
